@@ -14,9 +14,7 @@ const app = express()
 app.use( express.json() )
 app.use( cors({
   origin: [
-    "http://localhost:5173",
-    "https://fstackapp-69zl.vercel.app",
-    "https://fstackapp-69zl.vercel.app/"
+    "https://fstackapp-69zl.vercel.app"
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
